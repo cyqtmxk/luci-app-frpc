@@ -48,6 +48,7 @@ define Package/$(PKG_NAME)/install
 	$(CP) ./luasrc/* $(1)/usr/lib/lua/luci
 endef
 
-include $(TOPDIR)/feeds/luci/luci.mk
+
 
 # call BuildPackage - OpenWrt buildroot signature
+$(eval $(call BuildPackage,bridge))
