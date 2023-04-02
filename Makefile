@@ -6,7 +6,7 @@
 #
 
 include $(TOPDIR)/rules.mk
-include $(INCLUDE_DIR)/package.mk
+
 
 PKG_NAME:=luci-app-frpc
 PKG_VERSION:=1
