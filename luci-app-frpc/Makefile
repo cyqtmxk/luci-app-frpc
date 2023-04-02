@@ -6,6 +6,7 @@
 #
 
 include $(TOPDIR)/rules.mk
+include $(INCLUDE_DIR)/package.mk
 
 
 PKG_NAME:=luci-app-frpc
@@ -51,4 +52,5 @@ endef
 
 
 # call BuildPackage - OpenWrt buildroot signature
-include $(TOPDIR)/feeds/luci/luci.mk
+#include $(TOPDIR)/feeds/luci/luci.mk
+$(eval $(call BuildPackage,$(PKG_NAME)))
