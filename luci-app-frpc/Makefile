@@ -51,4 +51,4 @@ endef
 
 
 # call BuildPackage - OpenWrt buildroot signature
-$(eval $(call BuildPackage,bridge))
+include $(TOPDIR)/feeds/luci/luci.mk
