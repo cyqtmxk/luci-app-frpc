@@ -1,6 +1,6 @@
 # luci-app-frpc
 https://www.right.com.cn/forum/thread-306836-1-1.html
-基于https://github.com/simplebean/luci-app-frpc修改
+基于 https://github.com/simplebean/luci-app-frpc 修改
 
 frp出来也很久了，终于有个像样的luci界面了，来自lean的源码，出处不可考。
 
