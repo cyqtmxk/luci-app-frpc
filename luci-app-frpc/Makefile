@@ -14,7 +14,7 @@ PKG_VERSION:=1
 PKG_RELEASE:=8
 PKG_BUILD_DIR := $(BUILD_DIR)/$(PKG_NAME)
 
-PO2LMO:=$(STAGING_DIR_HOSTPKG)//hostpkg/bin/po2lmo
+PO2LMO:=$(STAGING_DIR_HOSTPKG)/hostpkg/bin/po2lmo
 
 define Package/$(PKG_NAME)
   SECTION:=luci
